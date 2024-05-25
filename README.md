@@ -5,7 +5,7 @@ Note: This project is not user dependent: Everytime somebody uses this project t
 
 ## Installation
 1. Clone the repository: [https://github.com/BaratovSokhibjon/Weather-Info-Provider](https://github.com/BaratovSokhibjon/Weather-Info-Provider)
-2. Run ```setup.bat``` on windows or     Run ```setup.sh``` on linux/mac
+2. Run ```setup.bat``` on windows or     Run ```sh setup.sh``` on linux/mac
 
 ## Usage
 To run the project, use the following command in your terminal:
