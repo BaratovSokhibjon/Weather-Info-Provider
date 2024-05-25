@@ -1,0 +1,40 @@
+<%- include("partitions/header.ejs") %>
+
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+
+    <div class="container">
+        
+        <% if (locals.data) { %>
+
+            <h1 align="center">IP address: <%= data.ip %></h1>
+            <h1 align="center">Country: <%= data.country_name %></h1>
+            <h1 align="center">Latitude: <%= data.latitude %></h1>
+            <h1 align="center">Longitude: <%= data.longitude %></h1>
+
+
+        <% }else {%>
+            <h1 align="center">Refresh the page!</h1>
+        <% } %>
+
+    </div>
+
+    <div class="container">
+        
+        <% if (locals.weatherData) { %>
+
+            <h1 align="center">Weather: <%= weatherData.weather[0].main %><img src="http://openweathermap.org/img/w/<%= weatherData.weather[0].icon %>.png" alt="Weather icon" class="mx-2 my-2"></h1>
+            <h1 align="center">Temp: <%= weatherData.main.temp %>°C</h1>
+            <h1 align="center">Feels like: <%= weatherData.main.feels_like %>°C</h1>
+            <h1 align="center">Humidity: <%= weatherData.main.humidity %>%</h1>
+
+
+
+        <% }else {%>
+            <h1 align="center">Refresh the page!</h1>
+        <% } %>
+
+    </div>
+
+</div>
+
+<%- include("partitions/footer.ejs") %>
