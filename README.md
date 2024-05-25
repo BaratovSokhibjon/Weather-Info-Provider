@@ -1,5 +1,5 @@
 # Weather information for your location
-This is a small project website that uses three different APIs to get the info we need. Basically we are getting the IP of the device that is requesting using the [Ipify API](https://www.ipify.org/) and using that IP we are getting the position (latitude and longitude) of the device using [Ipstack API](https://ipstack.com/). Finally using the position that we got, we get hold of the weather information using the [OpenWeather API](https://openweathermap.org/). 
+This is a small project website that uses three different APIs to get the info we need. Basically we are getting the IP of the device that is requesting using the [Ipify API](https://www.ipify.org/) and using that IP we are getting the position (latitude and longitude) of the device using [Ipstack API](https://ipstack.com/). Finally using the position that we got, we get hold of the weather information using the [OpenWeather API](https://openweathermap.org/). **I haven't spent much time on style, this project was for practicing API usage.**
 
 Note: This project is not user dependent: Everytime somebody uses this project to get the weather info, the API servers will consider as me (Baratov Sokhibjon) tried to access the info.
 
