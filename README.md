@@ -15,7 +15,7 @@ To run the project, use the following command in your terminal:
 2. Go to [http://localhost:3000/](http://localhost:3000/) on your browser
 
 ## Expected output:
-![Screenshot - image of weather info in Incheon](Screenshots\Screenshot.png)
+![Screenshot - image of weather info in Incheon](/Screenshots/Screenshot.png)
 
 ## Contributing
 1. Fork the repository.
