@@ -5,15 +5,7 @@ Note: This project is not user dependent: Everytime somebody uses this project t
 
 ## Installation
 1. Clone the repository: [https://github.com/BaratovSokhibjon/Weather-Info-Provider](https://github.com/BaratovSokhibjon/Weather-Info-Provider)
-2. Install Node JS and npm:
-  - Make sure you are at the correct directory
-  - Install the latest version of Node from [Node install page](https://nodejs.org/)
-  - If you follow the default installation settings, it should install npm too
-  - run ``` node -v ``` to check if you installed node properly
-
-3. Install dependencies:
-   Note: You should have Node JS installed before running these commands
-``` npm install ```
+2. Run ```setup.bat``` on windows or     Run ```setup.sh``` on linux/mac
 
 ## Usage
 To run the project, use the following command in your terminal:
